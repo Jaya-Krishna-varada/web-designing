@@ -1,0 +1,29 @@
+
+.account-details {
+    background-color: aliceblue;
+
+    .card {
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 20px;
+        padding: 4px;
+        font-style: italic;
+        color: black;
+        margin-bottom: 8px;
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    img {
+        width: auto;
+        height: auto;
+    }
+    p {
+        margin: 0px;
+    }
+    .logout {
+        border-bottom: 1px solid;
+    }
+}

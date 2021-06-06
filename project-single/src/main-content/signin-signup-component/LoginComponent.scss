@@ -1,0 +1,21 @@
+
+.login-screen {
+    background-image: url('./appLogo.jpeg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .card {
+
+        border-radius: 10px;
+        position: absolute;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        input {
+            padding: 10px 20px;
+        }
+    }
+}

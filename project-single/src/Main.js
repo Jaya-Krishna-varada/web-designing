@@ -1,5 +1,6 @@
 import React from 'react';
 import NavigationMenu from './main-content/nav-bar-component/NavigationMenu';
+import LoginComponent from './main-content/signin-signup-component/LoginComponent';
 
 class Main extends React.Component {
     
@@ -9,9 +10,7 @@ class Main extends React.Component {
 
     render() {
         return (
-            <div>
-                <NavigationMenu />
-            </div>
+            <LoginComponent />
         );
     }
 }

@@ -1,0 +1,30 @@
+.users {
+    background-color: gray;
+
+    .card {
+        border: none;
+        border-radius: 15px;
+        max-height: 150px;
+
+        p {
+            margin: 0;
+        }
+
+        .title {
+            font-size: 16px;
+        }
+        .sub-title {
+            font-size: 12px;
+        }
+
+        .view {
+            position: absolute;
+            font-size: 10px;
+            bottom: 0px;
+            margin-bottom: 5px;
+        }
+    }
+    .cover-photo {
+        max-width: 100%;
+    }
+}

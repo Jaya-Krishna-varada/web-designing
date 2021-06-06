@@ -1,8 +1,10 @@
-img {
-    width: 20px;
-    height: 20px;
-    @media (min-width : 1200px) {
-        width: 16px;
-        height: 16px;
-    }
+.global-nav {
+    ul img {
+        width: 20px;
+        height: 20px;
+        @media (min-width : 1200px) {
+            width: 16px;
+            height: 16px;
+        }
+    }    
 }
